@@ -1,0 +1,9 @@
+{
+  "commands.life.add.success": "Added %s lifes to %s",
+  "commands.life.add.error": "Couldn't add %s lifes to %s because Players Max Life is set to %s",
+  "commands.life.remove.success": "Removed %s lifes to %s",
+  "commands.life.remove.error": "Couldn't remove %s lifes to %s because Players Max Life is set to %s and cannot be 0",
+  "commands.life.set.success": "Set %s lifes to %s",
+  "commands.life.set.error": "Couldn't set %s lifes to %s because Max Lifes is set to %s",
+  "gui.playernames.withlifes": "%s %s"
+}

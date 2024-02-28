@@ -1,0 +1,42 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "net.lightglow",
+		"id": "chaoslifes",
+		"version": "${version}",
+		"metadata": {
+			"name": "Chaos Lives",
+			"description": "A mod designed for giving Players specific amounts of lifes",
+			"contributors": {
+				"Your name here": "Mlodziak00"
+			},
+			"contact": {
+			},
+			"icon": "assets/example_mod/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "net.lightglow.chaoslifes.ChaosLifesMain",
+			"cardinal-components-entity": "net.lightglow.chaoslifes.components.ChaosLifesComponents"
+
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.17.0-"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=4.0.0-"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.19.2"
+			}
+		]
+	},
+	"cardinal-components": [
+		"chaoslifes:playerlifes"
+	],
+	"mixin": "chaoslifes.mixins.json"
+}
